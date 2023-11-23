@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="loginApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>loginApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="loginApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="loginApp:war exploded" />
+    </root>
+  </artifact>
+</component>
